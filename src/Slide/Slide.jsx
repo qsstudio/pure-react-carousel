@@ -113,7 +113,8 @@ const Slide = class Slide extends React.PureComponent {
 
     if (orientation === 'horizontal') {
       tempStyle.width = pct(slideSize);
-      tempStyle.paddingBottom = pct((naturalSlideHeight * 100) / (naturalSlideWidth * totalSlides));
+      // tempStyle.paddingBottom =
+      // pct((naturalSlideHeight * 100) / (naturalSlideWidth * totalSlides));
     } else {
       tempStyle.width = pct(100);
       tempStyle.paddingBottom = pct((naturalSlideHeight * 100) / naturalSlideWidth);
