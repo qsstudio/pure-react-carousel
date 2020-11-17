@@ -567,9 +567,9 @@ const Slider = class Slider extends React.Component {
 
     if (orientation === 'vertical') {
       trayWrapStyle.height = 0;
-      trayWrapStyle.paddingBottom = pct(
-        (naturalSlideHeight * 100 * visibleSlides) / naturalSlideWidth,
-      );
+      // trayWrapStyle.paddingBottom = pct(
+      //   (naturalSlideHeight * 100 * visibleSlides) / naturalSlideWidth,
+      // );
       trayWrapStyle.width = pct(100);
     }
 
