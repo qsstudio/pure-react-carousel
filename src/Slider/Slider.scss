@@ -39,7 +39,7 @@
 
 .sliderAnimation {
   transition: transform 500ms;
-  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000); /* easeInOutCubic */
+  transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1); /* easeOutCubic */
   will-change: transform;
 }
 
